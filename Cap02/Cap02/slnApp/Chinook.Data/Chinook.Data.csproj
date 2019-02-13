@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="ArtistDA.cs" />
     <Compile Include="BaseConnection.cs" />
+    <Compile Include="GenreDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

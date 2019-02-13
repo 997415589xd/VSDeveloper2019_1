@@ -4,3 +4,9 @@ C:\vsdeveloper2017\Labs\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities
 C:\vsdeveloper2017\Labs\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
 C:\vsdeveloper2017\Labs\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
 C:\vsdeveloper2017\Labs\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.dll
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\bin\Debug\Chinook.Entities.pdb
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csprojAssemblyReference.cache
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.csproj.CoreCompileInputs.cache
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.dll
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Entities\obj\Debug\Chinook.Entities.pdb
