@@ -1,0 +1,70 @@
+alter procedure usp_GetArtist
+(
+	@pNombre nvarchar(100)
+)
+as
+begin 
+	
+		select Artistid, Name
+		from Artist
+		where Name Like @pNombre
+end
+
+GO
+
+create procedure usp_InsertArtits
+(
+@name varchar(120)
+)
+as begin
+
+	insert into Artist
+	values( @name)
+
+	select SCOPE_IDENTITY()
+end
+go
+
+create procedure usp_InsertArtitsWhitOutPut
+(
+@name varchar(120),
+@id int output
+)
+as begin
+
+	insert into Artist
+	values( @name)
+
+	set @id= SCOPE_IDENTITY()
+end
+go
+---------------------------------------------------------------------
+create procedure usp_GetGenre
+(
+	@pNombre nvarchar(100)
+)
+as
+begin 
+	
+		select GenreId, Name
+		from Genre
+		where Name Like @pNombre
+end
+
+GO
+
+---
+create procedure usp_InsertGenre
+(
+@name varchar(120)
+)
+as begin
+
+	insert into Genre
+	values( @name)
+
+	select SCOPE_IDENTITY()
+end
+go
+
+select * from Genre order by GenreId desc
