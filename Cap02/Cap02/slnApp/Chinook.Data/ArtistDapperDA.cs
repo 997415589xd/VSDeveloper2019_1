@@ -154,14 +154,9 @@ namespace Chinook.Data
                     using (IDbConnection cn = new SqlConnection(GetConnection()))
                     {
 
-                        cn.Open();
-                        IDbCommand command = new SqlCommand("usp_InsertArtits");
-
-                        command.Connection = cn;
-                        command.CommandType = CommandType.StoredProcedure;
-                        command.Parameters.Add(new SqlParameter("@Name", entity.Name));
-
-                        result = Convert.ToInt32(command.ExecuteScalar());
+                        result = cn.Query<int>("usp_InsertArtits",
+                    new { Name = entity.Name },
+                    commandType: CommandType.StoredProcedure).Single();
 
                     }
                     tx.Complete();

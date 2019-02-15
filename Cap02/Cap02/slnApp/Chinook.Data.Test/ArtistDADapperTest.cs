@@ -58,5 +58,18 @@ namespace Chinook.Data.Test
             Assert.IsTrue(nuevoArtista > 0);
 
         }
+
+        [TestMethod]
+        public void insertArtistTestTRansaccionDistribuida()
+        {
+            var da = new ArtistDapperDA();
+            var nuevoArtista = da.InsertArtistTransDistribuida(
+                new Artist() { Name = "Nuevo Artista" + Guid.NewGuid().ToString() }
+                );
+
+
+            Assert.IsTrue(nuevoArtista > 0);
+
+        }
     }
 }
