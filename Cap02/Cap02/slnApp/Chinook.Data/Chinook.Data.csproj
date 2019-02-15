@@ -49,6 +49,7 @@
     <Compile Include="ArtistDapperDA.cs" />
     <Compile Include="BaseConnection.cs" />
     <Compile Include="GenreDA.cs" />
+    <Compile Include="GenreDapperDA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

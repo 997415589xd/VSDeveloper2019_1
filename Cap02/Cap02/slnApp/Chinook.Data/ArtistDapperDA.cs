@@ -177,6 +177,20 @@ namespace Chinook.Data
             return result;
         }
 
+        public bool UpdateArtis(Artist entity)
+        {
+            var result = false;
+            using (IDbConnection cn = new SqlConnection(GetConnection()))
+            {
+                cn.Query("usp_updateArtis",
+                    new { Name = entity.Name },
+                    commandType: CommandType.StoredProcedure
+                    );
+                result = true;
+            }
+            return result;
+        }
+
     }
 
 }

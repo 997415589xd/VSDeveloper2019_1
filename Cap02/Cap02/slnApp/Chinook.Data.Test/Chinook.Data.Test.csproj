@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="AristDATest.cs" />
     <Compile Include="ArtistDADapperTest.cs" />
+    <Compile Include="GenreDADapperTest.cs" />
     <Compile Include="GenreDATest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
