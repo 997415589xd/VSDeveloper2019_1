@@ -28,3 +28,5 @@ C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chin
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.csproj.CopyComplete
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.exe
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\obj\Debug\Chinook.UI.Desktop.pdb
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\bin\Debug\Dapper.dll
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.UI.Desktop\bin\Debug\Dapper.xml

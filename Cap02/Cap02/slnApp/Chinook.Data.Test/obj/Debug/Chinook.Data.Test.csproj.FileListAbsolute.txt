@@ -40,3 +40,5 @@ C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\bin\Debug\Chino
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\obj\Debug\Chinook.Data.Test.csproj.CopyComplete
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\bin\Debug\Dapper.dll
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data.Test\bin\Debug\Dapper.xml

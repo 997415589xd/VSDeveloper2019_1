@@ -16,3 +16,5 @@ C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Da
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.csproj.CopyComplete
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.dll
 C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\obj\Debug\Chinook.Data.pdb
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\bin\Debug\Dapper.dll
+C:\Vs2017\VSDeveloper2019_1\Cap02\Cap02\slnApp\Chinook.Data\bin\Debug\Dapper.xml

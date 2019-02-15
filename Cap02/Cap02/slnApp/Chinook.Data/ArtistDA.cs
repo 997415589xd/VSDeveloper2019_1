@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Transactions;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -222,5 +223,45 @@ namespace Chinook.Data
             }
             return result;
         }
+
+        public int InsertArtistTransDistribuida(Artist entity)
+        {
+
+            var result = 0;
+            using (var tx = new TransactionScope())
+            {
+                try
+                {
+                    using (IDbConnection cn = new SqlConnection(GetConnection()))
+                    {
+
+                        cn.Open();
+                        IDbCommand command = new SqlCommand("usp_InsertArtits");
+
+                            command.Connection = cn;                        
+                            command.CommandType = CommandType.StoredProcedure;
+                            command.Parameters.Add(new SqlParameter("@Name", entity.Name));
+
+                            result = Convert.ToInt32(command.ExecuteScalar());
+                                             
+                    }
+                    tx.Complete();
+
+                }
+                catch (Exception ex)
+                {
+
+                  
+                }
+            }
+                
+
+
+
+
+            
+            return result;
+        }
+
     }
 }
